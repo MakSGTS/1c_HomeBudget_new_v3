@@ -4,7 +4,9 @@
 		<Metadata name="Catalog.Валюты" id="c16290c4-6665-4bc7-b133-502b845a555e" configVersion="c9b42bb4b8c1e54bbdfbd2f79330aed300000000">
 			<Metadata name="Catalog.Валюты.Attribute.Идентификатор" id="8f835439-4683-4b3a-a10c-c41b878b3993"/>
 		</Metadata>
-		<Metadata name="Configuration.Конфигурация" id="40e1a1c8-7e1c-46f8-be35-36cd6479922a" configVersion="e1834519e233bf439499f2e777146a5500000000"/>
+		<Metadata name="CommonModule.ОбщиеПроцедурыИФункцииСервер" id="245eae07-978f-4c95-b865-e17b5fa910e0" configVersion="a71dee32a910b14b9b7f1bcbcbcee41d00000000"/>
+		<Metadata name="CommonModule.ОбщиеПроцедурыИФункцииСервер.Module" id="245eae07-978f-4c95-b865-e17b5fa910e0.0" configVersion="5f9ab9e6744e534086c69e1364f7b7e900000000"/>
+		<Metadata name="Configuration.Конфигурация" id="40e1a1c8-7e1c-46f8-be35-36cd6479922a" configVersion="308ea7e25f5a95458118e99d0bfd453200000000"/>
 		<Metadata name="Language.Русский" id="2d1cacd0-2829-490f-b1d3-45d95a7b6a55" configVersion="248ece814293674b94cf6f7b822b83f400000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

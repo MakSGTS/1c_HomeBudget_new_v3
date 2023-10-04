@@ -225,6 +225,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<CommonModule>ОбщиеПроцедурыИФункцииСервер</CommonModule>
 			<Catalog>Валюты</Catalog>
 		</ChildObjects>
 	</Configuration>
