@@ -225,6 +225,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Catalog>Валюты</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
