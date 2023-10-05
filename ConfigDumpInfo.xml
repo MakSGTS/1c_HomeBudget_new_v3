@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.16">
 	<ConfigVersions>
+<<<<<<< HEAD
 		<Metadata name="Catalog.Валюты" id="c16290c4-6665-4bc7-b133-502b845a555e" configVersion="c946a279631c114e869482a5e3212d7600000000">
 			<Metadata name="Catalog.Валюты.Attribute.Идентификатор" id="8f835439-4683-4b3a-a10c-c41b878b3993"/>
 		</Metadata>
@@ -13,5 +14,19 @@
 		<Metadata name="CommonModule.ОбщиеПроцедурыИФункцииСервер.Module" id="245eae07-978f-4c95-b865-e17b5fa910e0.0" configVersion="c2d5a44fd405534692794c1b4be0237000000000"/>
 		<Metadata name="Configuration.Конфигурация" id="40e1a1c8-7e1c-46f8-be35-36cd6479922a" configVersion="f7d7ce9cc315db41a657f355b97ddb0e00000000"/>
 		<Metadata name="Language.Русский" id="2d1cacd0-2829-490f-b1d3-45d95a7b6a55" configVersion="80205fea88ce9c4b9d701cee6922355400000000"/>
+=======
+		<Metadata name="Catalog.Валюты" id="c16290c4-6665-4bc7-b133-502b845a555e" configVersion="acb71ca7005c16478a73b6f89388fed100000000">
+			<Metadata name="Catalog.Валюты.Attribute.Идентификатор" id="8f835439-4683-4b3a-a10c-c41b878b3993"/>
+		</Metadata>
+		<Metadata name="Catalog.Валюты.Form.ФормаСписка" id="7c8df10b-489e-46f4-b89a-40a3a913c3a2" configVersion="8e4bdd85405ec0428e280b173a29cfa100000000"/>
+		<Metadata name="Catalog.Валюты.Form.ФормаСписка.Form" id="7c8df10b-489e-46f4-b89a-40a3a913c3a2.0" configVersion="39a0a4910cdbef469bfb96c0617c7d5300000000"/>
+		<Metadata name="Catalog.Валюты.Form.ФормаЭлемента" id="fbd5bfb6-8fd9-4d47-b97e-8ccc7d6d91bc" configVersion="565ae7d74b5ba04ea265500033ef2f2500000000"/>
+		<Metadata name="Catalog.Валюты.Form.ФормаЭлемента.Form" id="fbd5bfb6-8fd9-4d47-b97e-8ccc7d6d91bc.0" configVersion="964c1b16d1cf03439d388bb5350ca81e00000000"/>
+		<Metadata name="Catalog.Валюты.ObjectModule" id="c16290c4-6665-4bc7-b133-502b845a555e.0" configVersion="15db877e67afd6479e11d320b371a9ff00000000"/>
+		<Metadata name="CommonModule.ОбщиеПроцедурыИФункцииСервер" id="245eae07-978f-4c95-b865-e17b5fa910e0" configVersion="024e9d11a07d9848b4cb08de665ace1400000000"/>
+		<Metadata name="CommonModule.ОбщиеПроцедурыИФункцииСервер.Module" id="245eae07-978f-4c95-b865-e17b5fa910e0.0" configVersion="3267d92be836c44daa5dbce6b16f5cd900000000"/>
+		<Metadata name="Configuration.Конфигурация" id="40e1a1c8-7e1c-46f8-be35-36cd6479922a" configVersion="10105eb415d8974796799406119298e700000000"/>
+		<Metadata name="Language.Русский" id="2d1cacd0-2829-490f-b1d3-45d95a7b6a55" configVersion="837b5fb056347d47a019d76bf37e6a5f00000000"/>
+>>>>>>> module_Share-srv
 	</ConfigVersions>
 </ConfigDumpInfo>
