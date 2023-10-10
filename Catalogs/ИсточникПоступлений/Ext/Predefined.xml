@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.16">
+	<Item id="e8c37b89-fa1d-4298-9a83-3aaa74d519e9">
+		<Name>ВводНачальныхОстатков</Name>
+		<Code>001</Code>
+		<Description>Ввод начальных остатков</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="199c7d06-ca59-40dd-b431-c5ff3688317b">
+		<Name>Зарплата</Name>
+		<Code>002</Code>
+		<Description>Зарплата</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d97695a2-9b30-4489-ba32-5a33ab39a027">
+		<Name>ПереводМеждуСчетами</Name>
+		<Code>003</Code>
+		<Description>Перевод между счетами</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

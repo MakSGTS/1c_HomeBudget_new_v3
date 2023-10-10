@@ -226,7 +226,14 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<CommonModule>ОбщиеПроцедурыИФункцииСервер</CommonModule>
+			<CommonModule>ОбщиеПроцедурыИФункцииКлиент</CommonModule>
+			<CommonModule>ДиалогиСПользователемКлиент</CommonModule>
 			<Catalog>Валюты</Catalog>
+			<Catalog>ИсточникПоступлений</Catalog>
+			<Catalog>Счета</Catalog>
+			<Document>Приход</Document>
+			<Enum>ВидыСчетов</Enum>
+			<AccumulationRegister>ОстаткиДенежныхСредств</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
