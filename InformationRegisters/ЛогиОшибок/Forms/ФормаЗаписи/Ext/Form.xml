@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Период" id="34">
+			<DataPath>Запись.Period</DataPath>
+			<ContextMenu name="ПериодКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="36"/>
+		</InputField>
+		<InputField name="Дата" id="37">
+			<DataPath>Запись.Дата</DataPath>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="39"/>
+		</InputField>
+		<InputField name="УниверсальнаяДата" id="40">
+			<DataPath>Запись.УниверсальнаяДата</DataPath>
+			<ContextMenu name="УниверсальнаяДатаКонтекстноеМеню" id="41"/>
+			<ExtendedTooltip name="УниверсальнаяДатаРасширеннаяПодсказка" id="42"/>
+		</InputField>
+		<InputField name="ТипПлатформы" id="28">
+			<DataPath>Запись.ТипПлатформы</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="ТипПлатформыКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="ТипПлатформыРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<InputField name="ВерсияОС" id="25">
+			<DataPath>Запись.ВерсияОС</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="ВерсияОСКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ВерсияОСРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="ВерсияКофигурации" id="4">
+			<DataPath>Запись.ВерсияКофигурации</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="ВерсияКофигурацииКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ВерсияКофигурацииРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="ВерсияПрограммы" id="7">
+			<DataPath>Запись.ВерсияПрограммы</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="ВерсияПрограммыКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ВерсияПрограммыРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Процессор" id="13">
+			<DataPath>Запись.Процессор</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="ПроцессорКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ПроцессорРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="ОперативнаяПамять" id="16">
+			<DataPath>Запись.ОперативнаяПамять</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="ОперативнаяПамятьКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ОперативнаяПамятьРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="ТекстОшибки" id="19">
+			<DataPath>Запись.ТекстОшибки</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<MultiLine>true</MultiLine>
+			<ContextMenu name="ТекстОшибкиКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ТекстОшибкиРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="Даннные" id="22">
+			<DataPath>Запись.Даннные</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="ДаннныеКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ДаннныеРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<CheckBoxField name="Отправлено" id="31">
+			<DataPath>Запись.Отправлено</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ОтправленоКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="ОтправленоРасширеннаяПодсказка" id="33"/>
+		</CheckBoxField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.ЛогиОшибок</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

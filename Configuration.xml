@@ -228,11 +228,17 @@
 			<CommonModule>ОбщиеПроцедурыИФункцииСервер</CommonModule>
 			<CommonModule>ОбщиеПроцедурыИФункцииКлиент</CommonModule>
 			<CommonModule>ДиалогиСПользователемКлиент</CommonModule>
+			<CommonModule>ДиалогиСПользователямиСервер</CommonModule>
+			<CommonModule>ЛогированиеОшибок</CommonModule>
+			<CommonModule>ЗапросыHTTP_Сервер</CommonModule>
+			<CommonModule>ВыгрузкаДанныхСервер</CommonModule>
 			<Catalog>Валюты</Catalog>
 			<Catalog>ИсточникПоступлений</Catalog>
 			<Catalog>Счета</Catalog>
 			<Document>Приход</Document>
 			<Enum>ВидыСчетов</Enum>
+			<Enum>КритерииОшибок</Enum>
+			<InformationRegister>ЛогиОшибок</InformationRegister>
 			<AccumulationRegister>ОстаткиДенежныхСредств</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
