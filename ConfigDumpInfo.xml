@@ -34,7 +34,6 @@
 			<Metadata name="Catalog.Счета.Attribute.УстановитьНачальныйОстаток" id="d416d1c4-055e-45e7-ba13-f9bad1e81faa"/>
 			<Metadata name="Catalog.Счета.Attribute.Записан" id="f5b6014a-647a-4417-9916-8cefee42fc14"/>
 		</Metadata>
-		<Metadata name="Catalog.Счета.Form.ФормаСписка" id="7beae647-5f24-4959-a14e-fdc9bef828a4" configVersion="817e15dc7a93324db08a0ec791207d7900000000"/>
 		<Metadata name="Catalog.Счета.Form.ФормаЭлемента" id="c3925d0c-15bf-499f-bdbd-8bdc55703d52" configVersion="fe030c46ef3eb249850fc340e7f0c23200000000"/>
 		<Metadata name="Catalog.Счета.Form.ФормаЭлемента.Form" id="c3925d0c-15bf-499f-bdbd-8bdc55703d52.0" configVersion="4027ba54913e904daa96c21006cc24aa00000000"/>
 		<Metadata name="Catalog.Счета.ObjectModule" id="f940249d-0e53-4763-9441-4853c490aee2.0" configVersion="7791611f66856848bfc5f5e4a0dcc52f00000000"/>
