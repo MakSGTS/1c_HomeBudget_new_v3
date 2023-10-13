@@ -230,15 +230,19 @@
 			<CommonModule>ДиалогиСПользователемКлиент</CommonModule>
 			<CommonModule>ДиалогиСПользователямиСервер</CommonModule>
 			<CommonModule>ЛогированиеОшибок</CommonModule>
+			<CommonModule>ЗапросыHTTP</CommonModule>
 			<CommonModule>ЗапросыHTTP_Сервер</CommonModule>
 			<CommonModule>ВыгрузкаДанныхСервер</CommonModule>
+			<CommonModule>СборСтатистикиСервер</CommonModule>
 			<Catalog>Валюты</Catalog>
 			<Catalog>ИсточникПоступлений</Catalog>
 			<Catalog>Счета</Catalog>
 			<Document>Приход</Document>
 			<Enum>ВидыСчетов</Enum>
 			<Enum>КритерииОшибок</Enum>
+			<Enum>ВидыСтатистики</Enum>
 			<InformationRegister>ЛогиОшибок</InformationRegister>
+			<InformationRegister>СтатистикаИспользованияСервисов</InformationRegister>
 			<AccumulationRegister>ОстаткиДенежныхСредств</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
