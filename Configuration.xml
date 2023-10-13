@@ -234,15 +234,19 @@
 			<CommonModule>ЗапросыHTTP_Сервер</CommonModule>
 			<CommonModule>ВыгрузкаДанныхСервер</CommonModule>
 			<CommonModule>СборСтатистикиСервер</CommonModule>
+			<CommonForm>ФормаОбщихНастроек</CommonForm>
 			<Catalog>Валюты</Catalog>
 			<Catalog>ИсточникПоступлений</Catalog>
 			<Catalog>Счета</Catalog>
+			<Catalog>ПараметрыСистемы</Catalog>
 			<Document>Приход</Document>
 			<Enum>ВидыСчетов</Enum>
 			<Enum>КритерииОшибок</Enum>
 			<Enum>ВидыСтатистики</Enum>
+			<Enum>ВариантАлгоритмаБюджета</Enum>
 			<InformationRegister>ЛогиОшибок</InformationRegister>
 			<InformationRegister>СтатистикаИспользованияСервисов</InformationRegister>
+			<InformationRegister>НастройкиСистемы</InformationRegister>
 			<AccumulationRegister>ОстаткиДенежныхСредств</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>

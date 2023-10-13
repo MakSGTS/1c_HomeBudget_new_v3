@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.16">
+	<Item id="17328032-9b99-4021-89cc-ecbff2b92346">
+		<Name>id_user</Name>
+		<Code>012</Code>
+		<Description>id_user</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="95591f5a-e98d-4948-98d0-2030285608d6">
+		<Name>Password</Name>
+		<Code>011</Code>
+		<Description>Password</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="535a4f14-9146-4a1b-85a5-08203418d206">
+		<Name>User</Name>
+		<Code>010</Code>
+		<Description>User</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f779be57-ab35-40d0-89bd-0beeba372629">
+		<Name>Автобэкап</Name>
+		<Code>003</Code>
+		<Description>Автобэкап</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2e1f3fd2-8351-4923-a686-4e2d835c737e">
+		<Name>АвтоматическиОтправлятьОшибки</Name>
+		<Code>005</Code>
+		<Description>АвтоматическиОтправлятьОшибки</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0db7f6fb-8bce-43f8-865d-43f68604adcc">
+		<Name>ВариантРасчетаБюджета</Name>
+		<Code>001</Code>
+		<Description>ВариантРасчетаБюджета</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="17548164-33c2-475e-ad3a-a9eacb03a0af">
+		<Name>ОблачныйБэкап</Name>
+		<Code>007</Code>
+		<Description>ОблачныйБэкап</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a1deeb65-e734-49ee-bb5c-8b19eea4bdb6">
+		<Name>ОтправлятьЛоги</Name>
+		<Code>004</Code>
+		<Description>ОтправлятьЛоги</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6385508a-1aa0-4627-8480-b3109e9e2b74">
+		<Name>ОтправлятьСтатистику</Name>
+		<Code>006</Code>
+		<Description>ОтправлятьСтатистику</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c59df3db-1722-4b6f-9f9e-41d956a22f45">
+		<Name>УведомлятьОПревышенииБюджета</Name>
+		<Code>002</Code>
+		<Description>УведомлятьОПревышенииБюджета</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="87c5bdcf-1cd5-4f3f-aee4-c3673b61635f">
+		<Name>ШкалаБюджета</Name>
+		<Code>008</Code>
+		<Description>ШкалаБюджета</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f2e5700b-0acb-4271-bf71-d0555ab5c172">
+		<Name>ШкалаРасходов</Name>
+		<Code>009</Code>
+		<Description>ШкалаРасходов</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

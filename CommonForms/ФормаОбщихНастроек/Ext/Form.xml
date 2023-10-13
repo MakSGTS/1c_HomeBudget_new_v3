@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Настройки</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаБюджет" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Планирование бюджета</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа бюджет</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Collapsible</Behavior>
+			<Collapsed>true</Collapsed>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="ГруппаБюджетРасширеннаяПодсказка" id="5"/>
+			<ChildItems>
+				<InputField name="ВариантРасчетаБюджета" id="1">
+					<DataPath>ВариантРасчетаБюджета</DataPath>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<TitleLocation>Top</TitleLocation>
+					<ContextMenu name="ВариантРасчетаБюджетаКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="ВариантРасчетаБюджетаРасширеннаяПодсказка" id="3"/>
+					<Events>
+						<Event name="OnChange">АлгоритмРасчетаБюджетаПриИзменении</Event>
+					</Events>
+				</InputField>
+				<CheckBoxField name="УведомлятьОПерерасходе" id="6">
+					<DataPath>УведомлятьОПревышенииБюджета</DataPath>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="УведомлятьОПерерасходеКонтекстноеМеню" id="7"/>
+					<ExtendedTooltip name="УведомлятьОПерерасходеРасширеннаяПодсказка" id="8"/>
+					<Events>
+						<Event name="OnChange">УведомлятьОПерерасходеПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаБэкап" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Резервная копия</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа бэкап</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Behavior>Collapsible</Behavior>
+			<Collapsed>true</Collapsed>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="ГруппаБэкапРасширеннаяПодсказка" id="10"/>
+			<ChildItems>
+				<CheckBoxField name="Автобэкап" id="11">
+					<DataPath>Автобэкап</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Автоматическая резервная копия</v8:content>
+						</v8:item>
+					</Title>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="АвтобэкапКонтекстноеМеню" id="12"/>
+					<ExtendedTooltip name="АвтобэкапРасширеннаяПодсказка" id="13"/>
+					<Events>
+						<Event name="OnChange">АвтобэкапПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<CheckBoxField name="ОблачныйБэкап" id="14">
+					<DataPath>ОблачныйБэкап</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отправлять копии на сервер</v8:content>
+						</v8:item>
+					</Title>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ОблачныйБэкапКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="ОблачныйБэкапРасширеннаяПодсказка" id="16"/>
+					<Events>
+						<Event name="OnChange">ОблачныйБэкапПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<LabelField name="СсылкаНаРегистрацию" id="28">
+					<DataPath>СсылкаНаРегистрацию</DataPath>
+					<Visible>false</Visible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Перейти для регистрации...</v8:content>
+						</v8:item>
+					</Title>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<HorizontalStretch>true</HorizontalStretch>
+					<Hiperlink>true</Hiperlink>
+					<TextColor>#0000FF</TextColor>
+					<ContextMenu name="СсылкаНаРегистрациюКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="СсылкаНаРегистрациюРасширеннаяПодсказка" id="30"/>
+					<Events>
+						<Event name="Click">СсылкаНаРегистрациюНажатие</Event>
+					</Events>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаСлужебнаяИнформация" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Служебная информация</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа служебная информация</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Behavior>Collapsible</Behavior>
+			<Collapsed>true</Collapsed>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="ГруппаСлужебнаяИнформацияРасширеннаяПодсказка" id="18"/>
+			<ChildItems>
+				<CheckBoxField name="ОтправлятьЛоги" id="19">
+					<DataPath>ОтправлятьЛоги</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отправлять логи разработчику</v8:content>
+						</v8:item>
+					</Title>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ОтправлятьЛогиКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="ОтправлятьЛогиРасширеннаяПодсказка" id="21"/>
+					<Events>
+						<Event name="OnChange">ОтправлятьЛогиПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<CheckBoxField name="АвтоматическиОтправлятьОшибки" id="25">
+					<DataPath>АвтоматическиОтправлятьОшибки</DataPath>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="АвтоматическиОтправлятьОшибкиКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="АвтоматическиОтправлятьОшибкиРасширеннаяПодсказка" id="27"/>
+					<Events>
+						<Event name="OnChange">АвтоматическиОтправлятьОшибкиПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<CheckBoxField name="ОтправлятьСтатистику" id="22">
+					<DataPath>ОтправлятьСтатистику</DataPath>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ОтправлятьСтатистикуКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ОтправлятьСтатистикуРасширеннаяПодсказка" id="24"/>
+					<Events>
+						<Event name="OnChange">ОтправлятьСтатистикуПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ВариантРасчетаБюджета" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вариант расчета бюджета</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:EnumRef.ВариантАлгоритмаБюджета</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="УведомлятьОПревышенииБюджета" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уведомлять о превышении бюджета</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Автобэкап" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Автобэкап</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="АвтоматическиОтправлятьОшибки" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Автоматически отправлять ошибки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ОблачныйБэкап" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Облачный бэкап</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ОтправлятьЛоги" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправлять логи</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ОтправлятьСтатистику" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправлять статистику</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СсылкаНаРегистрацию" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ссылка на регистрацию</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+</Form>
