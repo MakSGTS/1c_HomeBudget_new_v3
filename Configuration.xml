@@ -225,6 +225,10 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<StyleItem>мЦветФона</StyleItem>
+			<StyleItem>мЦветТекстаОсновной</StyleItem>
+			<StyleItem>мШрифтТекстаОсновной</StyleItem>
+			<Style>СтильДомашнийБюджет</Style>
 			<CommonModule>ОбщиеПроцедурыИФункцииСервер</CommonModule>
 			<CommonModule>ОбщиеПроцедурыИФункцииКлиент</CommonModule>
 			<CommonModule>ДиалогиСПользователемКлиент</CommonModule>
@@ -234,7 +238,29 @@
 			<CommonModule>ЗапросыHTTP_Сервер</CommonModule>
 			<CommonModule>ВыгрузкаДанныхСервер</CommonModule>
 			<CommonModule>СборСтатистикиСервер</CommonModule>
+			<CommonModule>ВыгрузкаДанныхКлиент</CommonModule>
+			<CommonModule>ЗагрузкаДанныхКлиент</CommonModule>
+			<CommonModule>ЗагрузкаДанныхСервер</CommonModule>
+			<CommonModule>РаботаСГлавнымЭкраномСервер</CommonModule>
+			<ExchangePlan>Бэкап</ExchangePlan>
+			<CommonCommand>ВыгрузитьЛогиНаСерверДанных</CommonCommand>
+			<CommonCommand>ЗарегестрироватьПользователя</CommonCommand>
+			<Constant>user_id</Constant>
+			<Constant>АвтоБэкап</Constant>
+			<Constant>ДатаПервогоЗапуска</Constant>
+			<Constant>ДатаПоследнегоОбслуживания</Constant>
+			<Constant>ОтправлятьСтатистикуИЛоги</Constant>
+			<Constant>ОблачныйБэкап</Constant>
+			<Constant>АдресХЗ_Ответа</Constant>
+			<Constant>ФонУИД_Автобэкап</Constant>
+			<Constant>ФонУИД_ОтправкаЛогов</Constant>
+			<Constant>АдресХЗ_ОтветаЛоги</Constant>
+			<CommonForm>ФормаВыгрузкиДанных</CommonForm>
+			<CommonForm>ГлавныйЭкран</CommonForm>
 			<CommonForm>ФормаОбщихНастроек</CommonForm>
+			<CommonForm>ФормаКонстант</CommonForm>
+			<CommonForm>Форма_BackUp</CommonForm>
+			<CommonForm>ФормаРегистрацииНаСервере</CommonForm>
 			<Catalog>Валюты</Catalog>
 			<Catalog>ИсточникПоступлений</Catalog>
 			<Catalog>Счета</Catalog>
@@ -244,9 +270,12 @@
 			<Enum>КритерииОшибок</Enum>
 			<Enum>ВидыСтатистики</Enum>
 			<Enum>ВариантАлгоритмаБюджета</Enum>
+			<Enum>ПроверяемыеСобытияОбработчикаОжидания</Enum>
 			<InformationRegister>ЛогиОшибок</InformationRegister>
 			<InformationRegister>СтатистикаИспользованияСервисов</InformationRegister>
 			<InformationRegister>НастройкиСистемы</InformationRegister>
+			<InformationRegister>УчетныеЗаписи</InformationRegister>
+			<InformationRegister>ХранениеДанных</InformationRegister>
 			<AccumulationRegister>ОстаткиДенежныхСредств</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>

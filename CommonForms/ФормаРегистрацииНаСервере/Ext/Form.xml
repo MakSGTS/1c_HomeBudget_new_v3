@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Группа2" id="14">
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="15"/>
+			<ChildItems>
+				<UsualGroup name="Группа3" id="16">
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="17"/>
+					<ChildItems>
+						<InputField name="Логин" id="3">
+							<DataPath>Логин</DataPath>
+							<InputHint>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>exemple@mail.ru</v8:content>
+								</v8:item>
+							</InputHint>
+							<ContextMenu name="ЛогинКонтекстноеМеню" id="4"/>
+							<ExtendedTooltip name="ЛогинРасширеннаяПодсказка" id="5"/>
+							<Events>
+								<Event name="OnChange">ЛогинПриИзменении</Event>
+							</Events>
+						</InputField>
+						<InputField name="Пароль" id="6">
+							<DataPath>Пароль</DataPath>
+							<PasswordMode>true</PasswordMode>
+							<ContextMenu name="ПарольКонтекстноеМеню" id="7"/>
+							<ExtendedTooltip name="ПарольРасширеннаяПодсказка" id="8"/>
+							<Events>
+								<Event name="OnChange">ПарольПриИзменении</Event>
+								<Event name="TextEditEnd">ПарольОкончаниеВводаТекста</Event>
+							</Events>
+						</InputField>
+						<InputField name="ПарольДубль" id="9">
+							<DataPath>ПарольДубль</DataPath>
+							<PasswordMode>true</PasswordMode>
+							<BackColor>web:Tomato</BackColor>
+							<ContextMenu name="ПарольДубльКонтекстноеМеню" id="10"/>
+							<ExtendedTooltip name="ПарольДубльРасширеннаяПодсказка" id="11"/>
+							<Events>
+								<Event name="OnChange">ПарольДубльПриИзменении</Event>
+								<Event name="TextEditEnd">ПарольДубльОкончаниеВводаТекста</Event>
+							</Events>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа1" id="12">
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="13"/>
+					<ChildItems>
+						<Button name="Зарегистрировать" id="1">
+							<Type>UsualButton</Type>
+							<Enabled>false</Enabled>
+							<CommandName>Form.Command.Зарегистрировать</CommandName>
+							<Font bold="true" kind="AutoFont"/>
+							<ExtendedTooltip name="ЗарегистрироватьРасширеннаяПодсказка" id="2"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Логин" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Логин (e-mail)</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>128</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Пароль" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пароль</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>128</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПарольДубль" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пароль ещё раз</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>128</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Зарегистрировать" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Зарегистрировать учетную запись</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Зарегистрировать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Зарегистрировать</Action>
+		</Command>
+	</Commands>
+</Form>
