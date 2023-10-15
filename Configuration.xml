@@ -229,6 +229,7 @@
 			<StyleItem>мЦветТекстаОсновной</StyleItem>
 			<StyleItem>мШрифтТекстаОсновной</StyleItem>
 			<Style>СтильДомашнийБюджет</Style>
+			<CommonModule>РаботаСГлавнымЭкраномСервер</CommonModule>
 			<CommonModule>ОбщиеПроцедурыИФункцииСервер</CommonModule>
 			<CommonModule>ОбщиеПроцедурыИФункцииКлиент</CommonModule>
 			<CommonModule>ДиалогиСПользователемКлиент</CommonModule>
@@ -236,12 +237,11 @@
 			<CommonModule>ЛогированиеОшибок</CommonModule>
 			<CommonModule>ЗапросыHTTP</CommonModule>
 			<CommonModule>ЗапросыHTTP_Сервер</CommonModule>
+			<CommonModule>ВыгрузкаДанныхКлиент</CommonModule>
 			<CommonModule>ВыгрузкаДанныхСервер</CommonModule>
 			<CommonModule>СборСтатистикиСервер</CommonModule>
-			<CommonModule>ВыгрузкаДанныхКлиент</CommonModule>
 			<CommonModule>ЗагрузкаДанныхКлиент</CommonModule>
 			<CommonModule>ЗагрузкаДанныхСервер</CommonModule>
-			<CommonModule>РаботаСГлавнымЭкраномСервер</CommonModule>
 			<ExchangePlan>Бэкап</ExchangePlan>
 			<CommonCommand>ВыгрузитьЛогиНаСерверДанных</CommonCommand>
 			<CommonCommand>ЗарегестрироватьПользователя</CommonCommand>
