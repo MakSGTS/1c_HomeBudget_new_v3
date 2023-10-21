@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<CommandBarLocation>Top</CommandBarLocation>
+	<ShowCloseButton>false</ShowCloseButton>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ФормаНастройки" id="69">
+				<Type>CommandBarButton</Type>
+				<Representation>Picture</Representation>
+				<CommandName>Form.Command.Настройки</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.Setting</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ФормаНастройкиРасширеннаяПодсказка" id="70"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="BeforeClose">ПередЗакрытием</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="OnClose">ПриЗакрытии</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="ГруппаСтраниц" id="32">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страниц</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страниц</v8:content>
+				</v8:item>
+			</ToolTip>
+			<VerticalStretch>true</VerticalStretch>
+			<PagesRepresentation>TabsOnBottom</PagesRepresentation>
+			<ExtendedTooltip name="ГруппаСтраницРасширеннаяПодсказка" id="33"/>
+			<Events>
+				<Event name="OnCurrentPageChange">ГруппаСтраницПриСменеСтраницы</Event>
+			</Events>
+			<ChildItems>
+				<Page name="Страница1" id="34">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Главное</v8:content>
+						</v8:item>
+					</Title>
+					<TitleTextColor>style:мЦветТекстаОсновной</TitleTextColor>
+					<TitleFont ref="style:мШрифтТекстаОсновной" kind="StyleItem"/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Главное</v8:content>
+						</v8:item>
+					</ToolTip>
+					<VerticalStretch>true</VerticalStretch>
+					<Picture>
+						<xr:Ref>StdPicture.DialogExclamation</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<BackColor>style:ActivityColor</BackColor>
+					<ExtendedTooltip name="Страница1РасширеннаяПодсказка" id="35"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаГлавная" id="30">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа главная</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа главная</v8:content>
+								</v8:item>
+							</ToolTip>
+							<VerticalStretch>true</VerticalStretch>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<ShowTitle>false</ShowTitle>
+							<BackColor>style:ActivityColor</BackColor>
+							<ExtendedTooltip name="ГруппаГлавнаяРасширеннаяПодсказка" id="31"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаКоманды" id="1">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа команды</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа команды</v8:content>
+										</v8:item>
+									</ToolTip>
+									<HorizontalStretch>true</HorizontalStretch>
+									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<BackColor>style:ActivityColor</BackColor>
+									<ExtendedTooltip name="ГруппаКомандыРасширеннаяПодсказка" id="2"/>
+									<ChildItems>
+										<UsualGroup name="Группа3" id="17">
+											<HorizontalStretch>true</HorizontalStretch>
+											<Behavior>Usual</Behavior>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="18"/>
+											<ChildItems>
+												<Button name="ОбщаяКомандаБыстрыеПокупки" id="9">
+													<Type>UsualButton</Type>
+													<AutoMaxWidth>false</AutoMaxWidth>
+													<AutoMaxHeight>false</AutoMaxHeight>
+													<HorizontalStretch>true</HorizontalStretch>
+													<CommandName>0</CommandName>
+													<TextColor>#000000</TextColor>
+													<BackColor>style:ActivityColor</BackColor>
+													<BorderColor>#000000</BorderColor>
+													<Font height="7" bold="true" kind="AutoFont"/>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Быстрые покупки</v8:content>
+														</v8:item>
+													</Title>
+													<ExtendedTooltip name="ОбщаяКомандаБыстрыеПокупкиРасширеннаяПодсказка" id="10"/>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="Группа2" id="15">
+											<HorizontalStretch>true</HorizontalStretch>
+											<Behavior>Usual</Behavior>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="16"/>
+											<ChildItems>
+												<Button name="ДокументРасходыСоздать" id="11">
+													<Type>UsualButton</Type>
+													<Representation>PictureAndText</Representation>
+													<Width>8</Width>
+													<HorizontalStretch>true</HorizontalStretch>
+													<CommandName>0</CommandName>
+													<TextColor>#000000</TextColor>
+													<BackColor>style:ActivityColor</BackColor>
+													<BorderColor>#000000</BorderColor>
+													<Font height="7" bold="true" kind="AutoFont"/>
+													<Picture>
+														<xr:Ref>StdPicture.CreateListItem</xr:Ref>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+													</Picture>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Расход</v8:content>
+														</v8:item>
+													</Title>
+													<ExtendedTooltip name="ДокументРасходыСоздатьРасширеннаяПодсказка" id="12"/>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="Группа1" id="13">
+											<HorizontalStretch>true</HorizontalStretch>
+											<Behavior>Usual</Behavior>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="14"/>
+											<ChildItems>
+												<Button name="ОбщаяКомандаСканироватьШтрихкод" id="7">
+													<Type>UsualButton</Type>
+													<Representation>Text</Representation>
+													<HorizontalStretch>true</HorizontalStretch>
+													<CommandName>0</CommandName>
+													<TextColor>#000000</TextColor>
+													<BackColor>style:ActivityColor</BackColor>
+													<BorderColor>#000000</BorderColor>
+													<Font bold="true" kind="AutoFont"/>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>|| |||| | || || | ||| || ||</v8:content>
+														</v8:item>
+													</Title>
+													<ExtendedTooltip name="ОбщаяКомандаСканироватьШтрихкодРасширеннаяПодсказка" id="8"/>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаБюджет" id="25">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Бюджет</v8:content>
+										</v8:item>
+									</Title>
+									<TitleTextColor>#000000</TitleTextColor>
+									<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>None</ToolTipRepresentation>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<BackColor>style:ActivityColor</BackColor>
+									<ExtendedTooltip name="ГруппаБюджетРасширеннаяПодсказка" id="26"/>
+									<ChildItems>
+										<LabelDecoration name="Декорация1" id="51">
+											<HorizontalStretch>true</HorizontalStretch>
+											<Font bold="true" kind="AutoFont"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Бюджет</v8:content>
+												</v8:item>
+											</Title>
+											<HorizontalAlign>Center</HorizontalAlign>
+											<ContextMenu name="Декорация1КонтекстноеМеню" id="52"/>
+											<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="53"/>
+										</LabelDecoration>
+										<ProgressBarField name="ШкалаБюджета" id="27">
+											<DataPath>ШкалаБюджета</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<TitleTextColor>#000000</TitleTextColor>
+											<TitleLocation>None</TitleLocation>
+											<Height>2</Height>
+											<ShowPercent>true</ShowPercent>
+											<BorderColor>style:ToolTipTextColor</BorderColor>
+											<ContextMenu name="ШкалаБюджетаКонтекстноеМеню" id="28"/>
+											<ExtendedTooltip name="ШкалаБюджетаРасширеннаяПодсказка" id="29"/>
+										</ProgressBarField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаДиаграмма" id="3">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа диаграмма</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа диаграмма</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<BackColor>style:ActivityColor</BackColor>
+									<ExtendedTooltip name="ГруппаДиаграммаРасширеннаяПодсказка" id="4"/>
+									<ChildItems>
+										<LabelDecoration name="Декорация2" id="54">
+											<HorizontalStretch>true</HorizontalStretch>
+											<Font bold="true" kind="AutoFont"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Расходы за текущий месяц</v8:content>
+												</v8:item>
+											</Title>
+											<HorizontalAlign>Center</HorizontalAlign>
+											<ContextMenu name="Декорация2КонтекстноеМеню" id="55"/>
+											<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="56"/>
+										</LabelDecoration>
+										<ChartField name="ДиаграммаРасходы" id="19">
+											<DataPath>ДиаграммаРасходы</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Расходы за текущий месяц</v8:content>
+												</v8:item>
+											</Title>
+											<TitleTextColor>#000000</TitleTextColor>
+											<TitleFont ref="style:NormalTextFont" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+											<TitleLocation>None</TitleLocation>
+											<Height>4</Height>
+											<ContextMenu name="ДиаграммаРасходыКонтекстноеМеню" id="20"/>
+											<ExtendedTooltip name="ДиаграммаРасходыРасширеннаяПодсказка" id="21"/>
+										</ChartField>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="Страница2" id="36">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница2</v8:content>
+						</v8:item>
+					</Title>
+					<TitleTextColor>style:мЦветТекстаОсновной</TitleTextColor>
+					<TitleFont ref="style:мШрифтТекстаОсновной" kind="StyleItem"/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница2</v8:content>
+						</v8:item>
+					</ToolTip>
+					<BackColor>style:ImportantColor</BackColor>
+					<ExtendedTooltip name="Страница2РасширеннаяПодсказка" id="37"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаДенежныеСредства" id="5">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа денежные средства</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа денежные средства</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<BackColor>style:ImportantColor</BackColor>
+							<ExtendedTooltip name="ГруппаДенежныеСредстваРасширеннаяПодсказка" id="6"/>
+							<ChildItems>
+								<ChartField name="ДиаграммаДенежныеСредства" id="22">
+									<DataPath>ДиаграммаДенежныеСредства</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Денежные средства</v8:content>
+										</v8:item>
+									</Title>
+									<Height>2</Height>
+									<ContextMenu name="ДиаграммаДенежныеСредстваКонтекстноеМеню" id="23"/>
+									<ExtendedTooltip name="ДиаграммаДенежныеСредстваРасширеннаяПодсказка" id="24"/>
+								</ChartField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="Страница3" id="41">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Панель</v8:content>
+						</v8:item>
+					</Title>
+					<TitleTextColor>style:мЦветТекстаОсновной</TitleTextColor>
+					<TitleFont ref="style:мШрифтТекстаОсновной" kind="StyleItem"/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Командная панель</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Picture>
+						<xr:Ref>StdPicture.GanttChart</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<BackColor>style:мЦветФона</BackColor>
+					<ExtendedTooltip name="Страница3РасширеннаяПодсказка" id="42"/>
+					<ChildItems>
+						<UsualGroup name="Группа4" id="62">
+							<TitleTextColor>#000000</TitleTextColor>
+							<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<BackColor>style:мЦветФона</BackColor>
+							<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="63"/>
+							<ChildItems>
+								<InputField name="id_user" id="71">
+									<DataPath>id_user</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>id:</v8:content>
+										</v8:item>
+									</Title>
+									<TitleTextColor>#000000</TitleTextColor>
+									<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+									<TitleLocation>Left</TitleLocation>
+									<TextColor>#000000</TextColor>
+									<ContextMenu name="id_userКонтекстноеМеню" id="72"/>
+									<ExtendedTooltip name="id_userРасширеннаяПодсказка" id="73"/>
+								</InputField>
+								<Button name="КопироватьВБуфер" id="64">
+									<Type>UsualButton</Type>
+									<Representation>Picture</Representation>
+									<CommandName>Form.Command.КопироватьВБуфер</CommandName>
+									<Picture>
+										<xr:Ref>StdPicture.CloneObject</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<ExtendedTooltip name="КопироватьВБуферРасширеннаяПодсказка" id="65"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<HTMLDocumentField name="ПолеHTML_1" id="66">
+							<DataPath>ПолеHTML_1</DataPath>
+							<Enabled>false</Enabled>
+							<ReadOnly>true</ReadOnly>
+							<TitleLocation>None</TitleLocation>
+							<ContextMenu name="ПолеHTML_1КонтекстноеМеню" id="67"/>
+							<ExtendedTooltip name="ПолеHTML_1РасширеннаяПодсказка" id="68"/>
+						</HTMLDocumentField>
+					</ChildItems>
+				</Page>
+				<Page name="Страница4" id="46">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сервис</v8:content>
+						</v8:item>
+					</Title>
+					<TitleTextColor>style:мЦветТекстаОсновной</TitleTextColor>
+					<TitleFont ref="style:мШрифтТекстаОсновной" kind="StyleItem"/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница4</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Picture>
+						<xr:Ref>StdPicture.SettingsStorage</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<BackColor>style:мЦветФона</BackColor>
+					<ExtendedTooltip name="Страница4РасширеннаяПодсказка" id="47"/>
+					<ChildItems>
+						<UsualGroup name="Группа5" id="74">
+							<TitleTextColor>#000000</TitleTextColor>
+							<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<BackColor>style:мЦветФона</BackColor>
+							<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="75"/>
+							<ChildItems>
+								<InputField name="id_user1" id="76">
+									<DataPath>id_user</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>id:</v8:content>
+										</v8:item>
+									</Title>
+									<TitleTextColor>#000000</TitleTextColor>
+									<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+									<TitleLocation>Left</TitleLocation>
+									<TextColor>#000000</TextColor>
+									<ContextMenu name="id_user1КонтекстноеМеню" id="77"/>
+									<ExtendedTooltip name="id_user1РасширеннаяПодсказка" id="78"/>
+								</InputField>
+								<Button name="КопироватьВБуфер1" id="79">
+									<Type>UsualButton</Type>
+									<Representation>Picture</Representation>
+									<CommandName>Form.Command.КопироватьВБуфер</CommandName>
+									<Picture>
+										<xr:Ref>StdPicture.CloneObject</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<ExtendedTooltip name="КопироватьВБуфер1РасширеннаяПодсказка" id="80"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ДиаграммаРасходы" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Диаграмма расходы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.2/data/chart">d5p1:Chart</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ДиаграммаДенежныеСредства" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Диаграмма денежные средства</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.2/data/chart">d5p1:Chart</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ШкалаБюджета" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шкала бюджета</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>3</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПростоТак" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Просто так</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="id_user" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Id user</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>30</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПолеHTML_1" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поле HTML 1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Обновить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Обновить</Action>
+		</Command>
+		<Command name="КопироватьВБуфер" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Копировать в буфер</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Копировать в буфер</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КопироватьВБуфер</Action>
+		</Command>
+		<Command name="НастройкаОтчетов" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройка отчетов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройка отчетов</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="Бэкапы" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Бэкапы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Бэкапы</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="Настройки" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Настройки</Action>
+		</Command>
+	</Commands>
+</Form>
