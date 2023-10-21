@@ -229,13 +229,13 @@
 			<StyleItem>мЦветТекстаОсновной</StyleItem>
 			<StyleItem>мШрифтТекстаОсновной</StyleItem>
 			<Style>СтильДомашнийБюджет</Style>
-			<CommonModule>РаботаСГлавнымЭкраномСервер</CommonModule>
-			<CommonModule>ОбщиеПроцедурыИФункцииСервер</CommonModule>
 			<CommonModule>ОбщиеПроцедурыИФункцииКлиент</CommonModule>
+			<CommonModule>ОбщиеПроцедурыИФункцииСервер</CommonModule>
+			<CommonModule>РаботаСГлавнымЭкраномСервер</CommonModule>
 			<CommonModule>ДиалогиСПользователемКлиент</CommonModule>
 			<CommonModule>ДиалогиСПользователямиСервер</CommonModule>
-			<CommonModule>ЛогированиеОшибок</CommonModule>
-			<CommonModule>ЗапросыHTTP</CommonModule>
+			<CommonModule>ЛогированиеОшибокСервер</CommonModule>
+			<CommonModule>ЗапросыHTTP_Клиент</CommonModule>
 			<CommonModule>ЗапросыHTTP_Сервер</CommonModule>
 			<CommonModule>ВыгрузкаДанныхКлиент</CommonModule>
 			<CommonModule>ВыгрузкаДанныхСервер</CommonModule>
