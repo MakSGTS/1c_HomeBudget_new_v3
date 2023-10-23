@@ -9,7 +9,7 @@
 		<Metadata name="AccumulationRegister.ОстаткиДенежныхСредств.Form.ФормаСписка" id="8260df1e-b2c9-4e27-9577-ce9039686fc3" configVersion="dc490338edc37d43923c9732b09e2edf00000000"/>
 		<Metadata name="AccumulationRegister.ОстаткиДенежныхСредств.Form.ФормаСписка.Form" id="8260df1e-b2c9-4e27-9577-ce9039686fc3.0" configVersion="66a09b1fe17fcf4ab895a659e8a63d4400000000"/>
 		<Metadata name="AccumulationRegister.ОстаткиДенежныхСредств.RecordSetModule" id="652b8350-cbd8-4e3d-a920-c5721b458e4a.1" configVersion="eab39af421498946b86c2590db69cc9a00000000"/>
-		<Metadata name="Catalog.Валюты" id="c16290c4-6665-4bc7-b133-502b845a555e" configVersion="a976e8b11f66be47bf4eb68491bfc0d300000000">
+		<Metadata name="Catalog.Валюты" id="c16290c4-6665-4bc7-b133-502b845a555e" configVersion="0f73eb7ebc02dc47be4e673f3a6ddaa600000000">
 			<Metadata name="Catalog.Валюты.Attribute.Идентификатор" id="8f835439-4683-4b3a-a10c-c41b878b3993"/>
 		</Metadata>
 		<Metadata name="Catalog.Валюты.Form.ФормаСписка" id="7c8df10b-489e-46f4-b89a-40a3a913c3a2" configVersion="122e1532e1ef8b469314e36bd0c4b1f500000000"/>
@@ -17,6 +17,7 @@
 		<Metadata name="Catalog.Валюты.Form.ФормаЭлемента" id="fbd5bfb6-8fd9-4d47-b97e-8ccc7d6d91bc" configVersion="e301d90a3d8dbe4b8fd9d03e6eee4a5d00000000"/>
 		<Metadata name="Catalog.Валюты.Form.ФормаЭлемента.Form" id="fbd5bfb6-8fd9-4d47-b97e-8ccc7d6d91bc.0" configVersion="7dd9aa4d1ebf22438bcfe1e7eb0b95f400000000"/>
 		<Metadata name="Catalog.Валюты.ObjectModule" id="c16290c4-6665-4bc7-b133-502b845a555e.0" configVersion="2455a27eddbab84aa0cd1a8e35854cd900000000"/>
+		<Metadata name="Catalog.Валюты.Predefined" id="c16290c4-6665-4bc7-b133-502b845a555e.1c" configVersion="b14de8f29c15674093caf5c6f4b0fe4800000000"/>
 		<Metadata name="Catalog.ИсточникПоступлений" id="f4931303-95da-4f37-9e4d-eeccb7794885" configVersion="811c55261b243a4ba4754b3fd88b22bb00000000">
 			<Metadata name="Catalog.ИсточникПоступлений.Attribute.СчетПоступления" id="4fd0a61b-cf01-4cfc-9e95-588a1b29f18b"/>
 		</Metadata>
