@@ -67,32 +67,32 @@
 		<Metadata name="CommonForm.ФормаРегистрацииНаСервере.Form" id="d864bf56-caa0-47a3-8aca-6d632c2f68b2.0" configVersion="2fb26aaaeb0b9b44a3371474e09de3e700000000"/>
 		<Metadata name="CommonModule.ВыгрузкаДанныхКлиент" id="b5fe5647-98fd-493f-8975-84e21f73ccf3" configVersion="d99d7c2989db264f8bb3c094015c4ea600000000"/>
 		<Metadata name="CommonModule.ВыгрузкаДанныхКлиент.Module" id="b5fe5647-98fd-493f-8975-84e21f73ccf3.0" configVersion="ffc3ca973ed8784fb875b38d25a05cc000000000"/>
-		<Metadata name="CommonModule.ВыгрузкаДанныхСервер" id="df3d74fc-f111-4b7b-93ab-5c62556d8df6" configVersion="118f95b70f1a8c42a249bc52499b1e2000000000"/>
-		<Metadata name="CommonModule.ВыгрузкаДанныхСервер.Module" id="df3d74fc-f111-4b7b-93ab-5c62556d8df6.0" configVersion="2a072317b25a0c47a3da4e468e91a87700000000"/>
-		<Metadata name="CommonModule.ДиалогиСПользователемКлиент" id="9d4debda-311d-4d0b-95d3-2b73c8e95f6d" configVersion="1d3f04471142e046b918d15f502892a000000000"/>
-		<Metadata name="CommonModule.ДиалогиСПользователемКлиент.Module" id="9d4debda-311d-4d0b-95d3-2b73c8e95f6d.0" configVersion="ecd3ddd9626c2b4da22f7044514cce2c00000000"/>
+		<Metadata name="CommonModule.ВыгрузкаДанныхСервер" id="df3d74fc-f111-4b7b-93ab-5c62556d8df6" configVersion="c88e05db416fcc4f908b3ed1791f55c700000000"/>
+		<Metadata name="CommonModule.ВыгрузкаДанныхСервер.Module" id="df3d74fc-f111-4b7b-93ab-5c62556d8df6.0" configVersion="7d3505437c150d4e9e95b4256a6118df00000000"/>
+		<Metadata name="CommonModule.ДиалогиСПользователемКлиент" id="9d4debda-311d-4d0b-95d3-2b73c8e95f6d" configVersion="87e834f9ac7685459c0814c53256dbb800000000"/>
+		<Metadata name="CommonModule.ДиалогиСПользователемКлиент.Module" id="9d4debda-311d-4d0b-95d3-2b73c8e95f6d.0" configVersion="362fb40c501cee4da302777a8364717c00000000"/>
 		<Metadata name="CommonModule.ДиалогиСПользователямиСервер" id="349494b1-edcc-41d2-8af3-2041e3c2255b" configVersion="8baa39876a3ed14b96c5862576fa978f00000000"/>
 		<Metadata name="CommonModule.ДиалогиСПользователямиСервер.Module" id="349494b1-edcc-41d2-8af3-2041e3c2255b.0" configVersion="01a639c1f2e9474a953e264909aea1a600000000"/>
 		<Metadata name="CommonModule.ЗагрузкаДанныхКлиент" id="9824e73b-1b9f-4dd9-add2-184b3e3820fb" configVersion="1732507f60f82247bd865de86e00527400000000"/>
 		<Metadata name="CommonModule.ЗагрузкаДанныхКлиент.Module" id="9824e73b-1b9f-4dd9-add2-184b3e3820fb.0" configVersion="2236ee1910a6c84a8ae3fcf594f2f29c00000000"/>
 		<Metadata name="CommonModule.ЗагрузкаДанныхСервер" id="c0ccefa1-2376-4925-88c0-248be0b17f39" configVersion="9d403035177d3a45a3462c69bd4dd7d900000000"/>
 		<Metadata name="CommonModule.ЗагрузкаДанныхСервер.Module" id="c0ccefa1-2376-4925-88c0-248be0b17f39.0" configVersion="0ab5b50c48bb35428c3df6ac541fa1aa00000000"/>
-		<Metadata name="CommonModule.ЗапросыHTTP_Клиент" id="a294d312-2694-4715-9244-f4fad74d1a30" configVersion="a9ee2848c026774c93100519591266e300000000"/>
-		<Metadata name="CommonModule.ЗапросыHTTP_Клиент.Module" id="a294d312-2694-4715-9244-f4fad74d1a30.0" configVersion="447c998845e799468e4857de97c52f2600000000"/>
-		<Metadata name="CommonModule.ЗапросыHTTP_Сервер" id="30c386f6-a2dd-4750-9be0-011a403299f3" configVersion="ba256fadc9f6e649bbabf7d97fbeed6800000000"/>
-		<Metadata name="CommonModule.ЗапросыHTTP_Сервер.Module" id="30c386f6-a2dd-4750-9be0-011a403299f3.0" configVersion="8477c4c54bbcc94bbb8727e41d6cb52900000000"/>
-		<Metadata name="CommonModule.ЛогированиеОшибокСервер" id="719f002f-e522-43f2-9c14-8239c96299ba" configVersion="a3d2fbc1bbce9441bcbdbc0896ddb48c00000000"/>
-		<Metadata name="CommonModule.ЛогированиеОшибокСервер.Module" id="719f002f-e522-43f2-9c14-8239c96299ba.0" configVersion="8efe182ded6a974abc94ec2413a779d200000000"/>
+		<Metadata name="CommonModule.ЗапросыHTTP_Клиент" id="a294d312-2694-4715-9244-f4fad74d1a30" configVersion="5a1d9fbc055cd448a4a9eff40b0c401a00000000"/>
+		<Metadata name="CommonModule.ЗапросыHTTP_Клиент.Module" id="a294d312-2694-4715-9244-f4fad74d1a30.0" configVersion="f619dd482a95224ca20b3a087808c2a000000000"/>
+		<Metadata name="CommonModule.ЗапросыHTTP_Сервер" id="30c386f6-a2dd-4750-9be0-011a403299f3" configVersion="634a73612370b144bdf553f18be945be00000000"/>
+		<Metadata name="CommonModule.ЗапросыHTTP_Сервер.Module" id="30c386f6-a2dd-4750-9be0-011a403299f3.0" configVersion="a694f0342c7faa448111bd58f0de03f800000000"/>
+		<Metadata name="CommonModule.ЛогированиеОшибокСервер" id="719f002f-e522-43f2-9c14-8239c96299ba" configVersion="6ade68daf4351d47884100becd74b6f400000000"/>
+		<Metadata name="CommonModule.ЛогированиеОшибокСервер.Module" id="719f002f-e522-43f2-9c14-8239c96299ba.0" configVersion="5626ab25081100489cb933cbb5fd586f00000000"/>
 		<Metadata name="CommonModule.ОбщиеПроцедурыИФункцииКлиент" id="a11e0949-362c-431e-82bb-77818b13e994" configVersion="1af04d314e781e458dec63ecf9d4145e00000000"/>
 		<Metadata name="CommonModule.ОбщиеПроцедурыИФункцииКлиент.Module" id="a11e0949-362c-431e-82bb-77818b13e994.0" configVersion="cb05d97c292bbe4a869f538ca0465bec00000000"/>
-		<Metadata name="CommonModule.ОбщиеПроцедурыИФункцииСервер" id="245eae07-978f-4c95-b865-e17b5fa910e0" configVersion="e71c9d05a7c56944985f6d113bf82b0100000000"/>
-		<Metadata name="CommonModule.ОбщиеПроцедурыИФункцииСервер.Module" id="245eae07-978f-4c95-b865-e17b5fa910e0.0" configVersion="49f427f9b7b5804f89a99909415f6c8a00000000"/>
+		<Metadata name="CommonModule.ОбщиеПроцедурыИФункцииСервер" id="245eae07-978f-4c95-b865-e17b5fa910e0" configVersion="f88f12949ca401429160c956e14bf5f300000000"/>
+		<Metadata name="CommonModule.ОбщиеПроцедурыИФункцииСервер.Module" id="245eae07-978f-4c95-b865-e17b5fa910e0.0" configVersion="ac2d00644ff1c744b91dc298a621f0c200000000"/>
 		<Metadata name="CommonModule.РаботаСГлавнымЭкраномСервер" id="0a12f8eb-acc3-4be9-998b-b9de2da744ce" configVersion="6a659926ad76244ca55de43585d83e2800000000"/>
 		<Metadata name="CommonModule.РаботаСГлавнымЭкраномСервер.Module" id="0a12f8eb-acc3-4be9-998b-b9de2da744ce.0" configVersion="7f113887bc594444989202e6508879cb00000000"/>
 		<Metadata name="CommonModule.СборСтатистикиСервер" id="3ed63cd7-05d0-4a0a-b88c-c902fdc0b3cb" configVersion="acc2a2afe645da458d13f1aa1e30b44000000000"/>
 		<Metadata name="CommonModule.СборСтатистикиСервер.Module" id="3ed63cd7-05d0-4a0a-b88c-c902fdc0b3cb.0" configVersion="c7214ce5a749d640a0d428525d5a39e300000000"/>
-		<Metadata name="Configuration.Конфигурация" id="40e1a1c8-7e1c-46f8-be35-36cd6479922a" configVersion="af992fef6b137145b820c98f4770a8d500000000"/>
-		<Metadata name="Configuration.Конфигурация.ManagedApplicationModule" id="d034b4fd-4a16-4ed0-8b8c-c06f2fafed12.6" configVersion="551e9feadfaa5a4eb0d29f2f0d5e006300000000"/>
+		<Metadata name="Configuration.Конфигурация" id="40e1a1c8-7e1c-46f8-be35-36cd6479922a" configVersion="a9344820ea31304d979b28349a76b41d00000000"/>
+		<Metadata name="Configuration.Конфигурация.ManagedApplicationModule" id="d034b4fd-4a16-4ed0-8b8c-c06f2fafed12.6" configVersion="a39830faca833f41ac6bba517bab021c00000000"/>
 		<Metadata name="Constant.user_id" id="7246c590-ec4c-42da-9273-5b88bb8cac8a" configVersion="f8585b1faf3c4c45a96e27a3dd03142700000000"/>
 		<Metadata name="Constant.АвтоБэкап" id="466bcbad-6a25-4d6d-8dfd-de6ffe81c3e0" configVersion="0dec3f895e9c2d478e9978e5f520b46900000000"/>
 		<Metadata name="Constant.АдресХЗ_Ответа" id="23f97989-ea05-4068-8baf-7837e8cc2541" configVersion="c9a5b6584d93c04289efb103bca1cbba00000000"/>
@@ -115,7 +115,35 @@
 		<Metadata name="Document.Приход.Form.ФормаСписка.Form" id="a13c6c93-5c97-4ed8-a9bc-e4ecc3d1c6dc.0" configVersion="6964828c497aa74c9b7ce2a9802d100a00000000"/>
 		<Metadata name="Document.Приход.ObjectModule" id="5638f8d9-609a-4964-850d-f96414648833.0" configVersion="8e4e48ac85d2254591dd200011ac0d2a00000000"/>
 		<Metadata name="Enum.ВариантАлгоритмаБюджета" id="628ef2cd-c904-432d-8e19-cc7410aadc63" configVersion="f4614e6f8272e647b09e532c9b5dfde700000000"/>
-		<Metadata name="Enum.ВидыСтатистики" id="461bda3f-2922-4c1d-84e4-54a983606763" configVersion="6796bf3ceb031d4eba7ed4bf1b0dd05500000000"/>
+		<Metadata name="Enum.ВидыСтатистики" id="461bda3f-2922-4c1d-84e4-54a983606763" configVersion="c6547a3856ef554991e4afc7ec9a107f00000000">
+			<Metadata name="Enum.ВидыСтатистики.EnumValue.СозданиеДокументаРасход" id="00c9e815-08a1-4992-a8ad-8386049328d8"/>
+			<Metadata name="Enum.ВидыСтатистики.EnumValue.СозданиеБюджетаПодробный" id="044993d2-9753-49cf-9c0c-618acb75fbc7"/>
+			<Metadata name="Enum.ВидыСтатистики.EnumValue.СозданиеКредитныйДоговор_ЗаймПолученный" id="26558668-341d-4984-80b2-1028c2e77a3b"/>
+			<Metadata name="Enum.ВидыСтатистики.EnumValue.ЛокальныйBackUp" id="34b416f5-236a-40ec-8c4e-12bf3329131e"/>
+			<Metadata name="Enum.ВидыСтатистики.EnumValue.СозданиеАвтоплатеж" id="35c9f8bf-8a83-4908-b8af-d1830d4fbdeb"/>
+			<Metadata name="Enum.ВидыСтатистики.EnumValue.СозданиеКредитныйДоговор_КредитПолученный" id="440ab053-fffe-4250-bb19-19bf02e90303"/>
+			<Metadata name="Enum.ВидыСтатистики.EnumValue.ПредоставлениеСтатистики" id="45a63f5a-5e34-4862-948f-a5d4d387b639"/>
+			<Metadata name="Enum.ВидыСтатистики.EnumValue.ОблачныйBackUp" id="56baaf4b-0c6f-4f5d-82a2-eda34863bdc4"/>
+			<Metadata name="Enum.ВидыСтатистики.EnumValue.ЗапросЧека" id="6c572b8f-8ad4-4124-819d-3d8061189b13"/>
+			<Metadata name="Enum.ВидыСтатистики.EnumValue.Автобэкап" id="6c90a1df-f6ae-48b2-98fc-8ac02a62b784"/>
+			<Metadata name="Enum.ВидыСтатистики.EnumValue.СозданиеДокументаВозврат" id="706ecc69-9310-4955-b670-bdd96baf155d"/>
+			<Metadata name="Enum.ВидыСтатистики.EnumValue.ПересчетГрафикаПлатежей" id="728209f2-299b-42e4-b704-bc15f3db726e"/>
+			<Metadata name="Enum.ВидыСтатистики.EnumValue.ОтчетРасходыПодробно" id="77ba8251-1991-4d2c-b326-9612bf37d729"/>
+			<Metadata name="Enum.ВидыСтатистики.EnumValue.СозданиеКредитныйДоговор_КредитВыданный" id="7f818a47-297d-41ec-8522-976e95270598"/>
+			<Metadata name="Enum.ВидыСтатистики.EnumValue.СозданиеБюджетаКраткий" id="93f2f3d2-c19f-4249-88ba-52d483671eea"/>
+			<Metadata name="Enum.ВидыСтатистики.EnumValue.СозданиеКорзина" id="9ebcbfbd-35d1-433f-ad2c-e2731bb81eef"/>
+			<Metadata name="Enum.ВидыСтатистики.EnumValue.СозданиеСпискаПокупок" id="a5056cda-c793-41d5-bad7-ca7e30d88de5"/>
+			<Metadata name="Enum.ВидыСтатистики.EnumValue.ВосстановлениеДанныхОблако" id="a5c3eac2-71d5-4a81-afe3-db58110c9e33"/>
+			<Metadata name="Enum.ВидыСтатистики.EnumValue.СканированиеЧека" id="a68dea7d-3fd7-4b44-886c-82028f0e3a85"/>
+			<Metadata name="Enum.ВидыСтатистики.EnumValue.ОтправкаЛогов" id="a6afab04-ae10-484a-a918-54f4ac20db4e"/>
+			<Metadata name="Enum.ВидыСтатистики.EnumValue.ВосстановлениеДанныхЛокально" id="b409054a-e464-473c-be63-3aa308d882a0"/>
+			<Metadata name="Enum.ВидыСтатистики.EnumValue.ОтчетРасходы" id="c64de27b-93d8-46df-a242-ef32484a3289"/>
+			<Metadata name="Enum.ВидыСтатистики.EnumValue.СозданиеДокументаЧек" id="d01870f8-e1c5-49d6-8f50-1d00f3700205"/>
+			<Metadata name="Enum.ВидыСтатистики.EnumValue.СозданиеКредитныйДоговор_ЗаймВыданный" id="e4fa0694-d0b9-4593-9c5b-e268527285ad"/>
+			<Metadata name="Enum.ВидыСтатистики.EnumValue.СозданиеДокументаПриход" id="e85378a7-4ce5-4d0c-83a9-6f5f26f52a8a"/>
+			<Metadata name="Enum.ВидыСтатистики.EnumValue.ПереводМеждуСчетами" id="f0706e11-4b42-4e8d-b858-922fed065fe6"/>
+			<Metadata name="Enum.ВидыСтатистики.EnumValue.СканированиеШК" id="f4b1009f-7f1f-4a09-b58f-11c2048905ef"/>
+		</Metadata>
 		<Metadata name="Enum.ВидыСчетов" id="7f7df912-26a0-42f8-b2e4-97ccb771f468" configVersion="cd4899f871a15740adbe1151bccb583d00000000">
 			<Metadata name="Enum.ВидыСчетов.EnumValue.Кредит" id="3854c1ae-2211-4acc-8d11-d87fb9687cb5"/>
 			<Metadata name="Enum.ВидыСчетов.EnumValue.Наличные" id="4e0ad040-25f6-4881-8a2c-f53dac1e9d43"/>
@@ -182,7 +210,7 @@
 			<Metadata name="InformationRegister.ХранениеДанных.Resource.АдресДанных" id="b9aa6865-1dbc-401d-9f6b-d73b6db94407"/>
 			<Metadata name="InformationRegister.ХранениеДанных.Dimension.ИмяОбъекта" id="d07fbfd7-eea2-4f23-a159-285c7383910c"/>
 		</Metadata>
-		<Metadata name="Language.Русский" id="2d1cacd0-2829-490f-b1d3-45d95a7b6a55" configVersion="29bd3149f1683649a2889b7755d3bc0b00000000"/>
+		<Metadata name="Language.Русский" id="2d1cacd0-2829-490f-b1d3-45d95a7b6a55" configVersion="8310478eb305ac4598902d46d7415bb200000000"/>
 		<Metadata name="Style.СтильДомашнийБюджет" id="a52dabef-5389-4a4f-80f9-24bdfb37d0bc" configVersion="e4fc61df4a71304b8774df06fec2a57a00000000"/>
 		<Metadata name="Style.СтильДомашнийБюджет.Style" id="a52dabef-5389-4a4f-80f9-24bdfb37d0bc.0" configVersion="0189b4bd1fc79f43ba9660d185dcf29000000000"/>
 		<Metadata name="StyleItem.мЦветТекстаОсновной" id="421e3a25-46f4-47be-8087-091e3d86b8fc" configVersion="87b83765454cfb42b4067815c562294100000000"/>
