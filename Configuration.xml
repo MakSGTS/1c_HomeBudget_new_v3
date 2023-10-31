@@ -234,11 +234,10 @@
 			<CommonModule>ДиалогиСПользователемКлиент</CommonModule>
 			<CommonModule>ДиалогиСПользователямиСервер</CommonModule>
 			<CommonModule>ЛогированиеОшибокСервер</CommonModule>
-			<CommonModule>ЗапросыHTTP_Клиент</CommonModule>
 			<CommonModule>ЗапросыHTTP_Сервер</CommonModule>
+			<CommonModule>СборСтатистикиСервер</CommonModule>
 			<CommonModule>ВыгрузкаДанныхКлиент</CommonModule>
 			<CommonModule>ВыгрузкаДанныхСервер</CommonModule>
-			<CommonModule>СборСтатистикиСервер</CommonModule>
 			<CommonModule>ЗагрузкаДанныхКлиент</CommonModule>
 			<CommonModule>ЗагрузкаДанныхСервер</CommonModule>
 			<ExchangePlan>Бэкап</ExchangePlan>
@@ -254,7 +253,6 @@
 			<Constant>ФонУИД_Автобэкап</Constant>
 			<Constant>ФонУИД_ОтправкаЛогов</Constant>
 			<Constant>АдресХЗ_ОтветаЛоги</Constant>
-			<CommonForm>ФормаВыгрузкиДанных</CommonForm>
 			<CommonForm>ГлавныйЭкран</CommonForm>
 			<CommonForm>ФормаОбщихНастроек</CommonForm>
 			<CommonForm>ФормаКонстант</CommonForm>
@@ -268,6 +266,7 @@
 			<Enum>ВидыСчетов</Enum>
 			<Enum>КритерииОшибок</Enum>
 			<Enum>ВидыСтатистики</Enum>
+			<Enum>ТипыПлатежей</Enum>
 			<Enum>ВариантАлгоритмаБюджета</Enum>
 			<Enum>ПроверяемыеСобытияОбработчикаОжидания</Enum>
 			<InformationRegister>ЛогиОшибок</InformationRegister>
