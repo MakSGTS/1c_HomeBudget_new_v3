@@ -242,6 +242,7 @@
 			<CommonModule>ЗагрузкаДанныхСервер</CommonModule>
 			<CommonModule>ПараметрыСерверов</CommonModule>
 			<ExchangePlan>Бэкап</ExchangePlan>
+			<WSReference>АвторизацияНаСервереДанных</WSReference>
 			<CommonCommand>ВыгрузитьЛогиНаСерверДанных</CommonCommand>
 			<CommonCommand>ЗарегестрироватьПользователя</CommonCommand>
 			<Constant>user_id</Constant>
