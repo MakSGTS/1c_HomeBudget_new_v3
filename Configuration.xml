@@ -241,6 +241,7 @@
 			<CommonModule>ЗагрузкаДанныхКлиент</CommonModule>
 			<CommonModule>ЗагрузкаДанныхСервер</CommonModule>
 			<CommonModule>ПараметрыСерверов</CommonModule>
+			<CommonModule>РаботаСWebСервисами_Сервер</CommonModule>
 			<ExchangePlan>Бэкап</ExchangePlan>
 			<WSReference>АвторизацияНаСервереДанных</WSReference>
 			<CommonCommand>ВыгрузитьЛогиНаСерверДанных</CommonCommand>

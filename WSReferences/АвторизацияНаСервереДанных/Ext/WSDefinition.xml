@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/"
+		xmlns:soap12bind="http://schemas.xmlsoap.org/wsdl/soap12/"
+		xmlns:soapbind="http://schemas.xmlsoap.org/wsdl/soap/"
+		xmlns:tns="user_authorization"
+		xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy"
+		xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		xmlns:xsd1="user_authorization"
+		name="UserAuthorization"
+		targetNamespace="user_authorization">
+	<types>
+		<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+				xmlns:xs1="user_authorization"
+				targetNamespace="user_authorization"
+				elementFormDefault="qualified">
+			<xs:element name="Авторизация">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Логин"
+								type="xs:string"/>
+						<xs:element name="ХешПароля"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="АвторизацияResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="return"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Регистрация">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Логин"
+								type="xs:string"/>
+						<xs:element name="ХешПароля"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="РегистрацияResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="return"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:schema>
+	</types>
+	<message name="АвторизацияRequestMessage">
+		<part name="parameters"
+				element="tns:Авторизация"/>
+	</message>
+	<message name="АвторизацияResponseMessage">
+		<part name="parameters"
+				element="tns:АвторизацияResponse"/>
+	</message>
+	<message name="РегистрацияRequestMessage">
+		<part name="parameters"
+				element="tns:Регистрация"/>
+	</message>
+	<message name="РегистрацияResponseMessage">
+		<part name="parameters"
+				element="tns:РегистрацияResponse"/>
+	</message>
+	<portType name="UserAuthorizationPortType">
+		<operation name="Авторизация">
+			<input name="АвторизацияRequest"
+					message="tns:АвторизацияRequestMessage"/>
+			<output name="АвторизацияResponse"
+					message="tns:АвторизацияResponseMessage"/>
+		</operation>
+		<operation name="Регистрация">
+			<input name="РегистрацияRequest"
+					message="tns:РегистрацияRequestMessage"/>
+			<output name="РегистрацияResponse"
+					message="tns:РегистрацияResponseMessage"/>
+		</operation>
+	</portType>
+	<binding name="UserAuthorizationSoapBinding"
+			type="tns:UserAuthorizationPortType">
+		<soapbind:binding style="document"
+				transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="Авторизация">
+			<soapbind:operation style="document"
+					soapAction="user_authorization#UserAuthorization:Авторизация"/>
+			<input>
+				<soapbind:body use="literal"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="Регистрация">
+			<soapbind:operation style="document"
+					soapAction="user_authorization#UserAuthorization:Регистрация"/>
+			<input>
+				<soapbind:body use="literal"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"/>
+			</output>
+		</operation>
+	</binding>
+	<binding name="UserAuthorizationSoap12Binding"
+			type="tns:UserAuthorizationPortType">
+		<soap12bind:binding style="document"
+				transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="Авторизация">
+			<soap12bind:operation style="document"
+					soapAction="user_authorization#UserAuthorization:Авторизация"/>
+			<input>
+				<soap12bind:body use="literal"/>
+			</input>
+			<output>
+				<soap12bind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="Регистрация">
+			<soap12bind:operation style="document"
+					soapAction="user_authorization#UserAuthorization:Регистрация"/>
+			<input>
+				<soap12bind:body use="literal"/>
+			</input>
+			<output>
+				<soap12bind:body use="literal"/>
+			</output>
+		</operation>
+	</binding>
+	<service name="UserAuthorization">
+		<port name="UserAuthorizationSoap"
+				binding="tns:UserAuthorizationSoapBinding">
+			<documentation> 
+				<wsi:Claim xmlns:wsi="http://ws-i.org/schemas/conformanceClaim/"
+						conformsTo="http://ws-i.org/profiles/basic/1.1"/>
+			</documentation>
+			<soapbind:address location="http://localhost/HB_Server/ws/UserAuthorization.1cws"/>
+		</port>
+		<port name="UserAuthorizationSoap12"
+				binding="tns:UserAuthorizationSoap12Binding">
+			<soap12bind:address location="http://localhost/HB_Server/ws/UserAuthorization.1cws"/>
+		</port>
+	</service>
+</definitions>
