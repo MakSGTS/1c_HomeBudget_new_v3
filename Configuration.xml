@@ -228,6 +228,7 @@
 			<StyleItem>мЦветТекстаОсновной</StyleItem>
 			<StyleItem>мШрифтТекстаОсновной</StyleItem>
 			<Style>СтильДомашнийБюджет</Style>
+			<SessionParameter>id_user</SessionParameter>
 			<CommonModule>ОбщиеПроцедурыИФункцииКлиент</CommonModule>
 			<CommonModule>ОбщиеПроцедурыИФункцииСервер</CommonModule>
 			<CommonModule>РаботаСГлавнымЭкраномСервер</CommonModule>
@@ -242,6 +243,7 @@
 			<CommonModule>ЗагрузкаДанныхСервер</CommonModule>
 			<CommonModule>ПараметрыСерверов</CommonModule>
 			<CommonModule>РаботаСWebСервисами_Сервер</CommonModule>
+			<CommonModule>РаботаСФайлами_Сервер</CommonModule>
 			<ExchangePlan>Бэкап</ExchangePlan>
 			<WSReference>АвторизацияНаСервереДанных</WSReference>
 			<CommonCommand>ВыгрузитьЛогиНаСерверДанных</CommonCommand>
