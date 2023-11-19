@@ -32,8 +32,13 @@
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
-			<Name>Конфигурация</Name>
-			<Synonym/>
+			<Name>ДомашнийБюджет</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Домашний бюджет</v8:content>
+				</v8:item>
+			</Synonym>
 			<Comment/>
 			<NamePrefix/>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_23</ConfigurationExtensionCompatibilityMode>
@@ -43,7 +48,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
-			<Vendor>@TomginMS</Vendor>
+			<Vendor>@TomshinMS</Vendor>
 			<Version>3.0.0</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
@@ -244,10 +249,12 @@
 			<CommonModule>ПараметрыСерверов</CommonModule>
 			<CommonModule>РаботаСWebСервисами_Сервер</CommonModule>
 			<CommonModule>РаботаСФайлами_Сервер</CommonModule>
+			<CommonModule>РаботаСФайлами_Клиент</CommonModule>
 			<ExchangePlan>Бэкап</ExchangePlan>
 			<WSReference>АвторизацияНаСервереДанных</WSReference>
 			<CommonCommand>ВыгрузитьЛогиНаСерверДанных</CommonCommand>
 			<CommonCommand>ЗарегестрироватьПользователя</CommonCommand>
+			<CommonCommand>Бэкапы</CommonCommand>
 			<Constant>user_id</Constant>
 			<Constant>АвтоБэкап</Constant>
 			<Constant>ДатаПервогоЗапуска</Constant>
