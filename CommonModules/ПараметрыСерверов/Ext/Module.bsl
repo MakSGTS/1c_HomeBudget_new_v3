@@ -7,12 +7,16 @@
 	Если Метод = "РегистрацияПользователя" Тогда
 		Возврат "intermediateserver/hs/service/";
 	ИначеЕсли Метод = "ВыгрузкаБэкапа" Тогда
-		Возврат "HomeBudget_backUp/hs/exchangeIncrement/"; 
+		Возврат "HB_Server/hs/exchangeIncrement/"; 
 	ИначеЕсли Метод = "ЗагрузкаБэкапа" Тогда
-		Возврат "HomeBudget_backUp/hs/exchange/";
+		Возврат "HB_Server/hs/exchange/";
 	ИначеЕсли Метод = "ВыгрузкаЛогов" Тогда
-		Возврат "HomeBudget_backUp/hs/download_log_info/";
+		Возврат "HB_Server/hs/download_log_info/";
 	ИначеЕсли Метод = "ВыгрузкаСтатистики" Тогда
-		Возврат "HomeBudget_backUp/hs/download_statistics/";
+		Возврат "HB_Server/hs/download_statistics/";
 	КонецЕсли;
+КонецФункции
+
+Функция ПолучитьЛогинДляБэкапа() Экспорт
+	Возврат "Бэкапы";
 КонецФункции
