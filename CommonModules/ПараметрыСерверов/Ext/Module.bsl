@@ -9,7 +9,7 @@
 	ИначеЕсли Метод = "ВыгрузкаБэкапа" Тогда
 		Возврат "HB_Server/hs/exchangeIncrement/"; 
 	ИначеЕсли Метод = "ЗагрузкаБэкапа" Тогда
-		Возврат "HB_Server/hs/exchange/";
+		Возврат "HB_Server/hs/exchangeIncrement/";
 	ИначеЕсли Метод = "ВыгрузкаЛогов" Тогда
 		Возврат "HB_Server/hs/download_log_info/";
 	ИначеЕсли Метод = "ВыгрузкаСтатистики" Тогда
