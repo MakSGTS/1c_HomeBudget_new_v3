@@ -249,7 +249,7 @@
 			<CommonModule>ПараметрыСерверов</CommonModule>
 			<CommonModule>РаботаСWebСервисами_Сервер</CommonModule>
 			<CommonModule>РаботаСФайлами_Сервер</CommonModule>
-			<CommonModule>РаботаСФайлами_Клиент</CommonModule>
+			<CommonModule>РаботаСоСтатистикой_Сервер</CommonModule>
 			<ExchangePlan>Бэкап</ExchangePlan>
 			<WSReference>АвторизацияНаСервереДанных</WSReference>
 			<CommonCommand>ВыгрузитьЛогиНаСерверДанных</CommonCommand>
